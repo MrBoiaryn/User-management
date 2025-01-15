@@ -1,3 +1,45 @@
-:host {
-  display: block;
+.container-dialog{
+
+  h2{
+    text-align: center;
+    font-family: "Nunito", serif;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 28px;
+
+  }
+
+  input, textarea, mat-select, ::placeholder{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+
+  mat-form-field{
+    margin-top: 10px;
+  }
+
+  .example-full-width {
+    width: 100%;
+  }
+  
+  .container-btn{
+    display: flex;
+    gap: 16px;
+
+    button{
+      font-family: "Inter", serif;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.1px;
+    }
+  }
 }
+
+.example-chip-list {
+  width: 100%;
+}
+

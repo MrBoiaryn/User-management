@@ -20,11 +20,12 @@ header{
 .container-main{
   width: 95%;
   margin: 0 auto;
-
+  
   .container-title{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px 0 24px 0;
 
     h2{
       font-family: "Nunito", serif;

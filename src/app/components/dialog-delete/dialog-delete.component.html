@@ -1,0 +1,12 @@
+<div class="container-dialog">
+
+  <mat-dialog-content>
+    <p>Are you sure want to delete user <span>{{firstName}} {{lastName}}</span>?</p>
+  </mat-dialog-content>
+
+  <mat-dialog-actions align="end" class="container-btn">
+    <button mat-stroked-button mat-dialog-close>Cancel</button>
+    <button mat-flat-button (click)="Delete()">Delete</button>
+  </mat-dialog-actions>
+
+</div>
